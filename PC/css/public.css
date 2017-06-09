@@ -1,0 +1,314 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    /*text-align: center;*/
+}
+
+img {
+    /*当我们用a标签包着img时，FF(FireFox)、IE会出现边框*/
+    border: none;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+a,
+input,
+textarea,
+button {
+    outline: none;
+}
+
+#header {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .banner_imgs {
+    width: 100%;
+    position: relative;
+    height: 600px;
+    cursor: pointer;
+}
+
+.banner .banner_imgs li {
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .banner_imgs li:nth-child(1) {
+    z-index: 3;
+}
+
+.banner .banner_imgs li:nth-child(2) {
+    z-index: 2;
+}
+
+.banner .banner_imgs li:nth-child(3) {
+    z-index: 1;
+}
+
+
+/*兼容IE7~8支持CSS3选择器*/
+
+.banner .banner_imgs li:first-child {
+    z-index: 3;
+}
+
+.banner .banner_imgs li:first-child+li {
+    z-index: 2;
+}
+
+.banner .banner_imgs li:first-child+li+li {
+    z-index: 1;
+}
+
+.banner .banner_lbtn,
+.banner .banner_rbtn {
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 88px;
+}
+
+.banner .banner_lbtn {
+    background-image: url(../images/banner_left.png);
+    background-color: #f4f4f4;
+    float: left;
+    position: absolute;
+    left: 226px;
+    top: 38%;
+    z-index: 4;
+}
+
+.banner .banner_rbtn {
+    background-image: url(../images/banner_right.png);
+    background-color: #eeeeee;
+    float: right;
+    position: absolute;
+    right: 226px;
+    top: 38%;
+    z-index: 4;
+}
+
+.banner .banner_lbtn:hover,
+.banner .banner_rbtn:hover {
+    cursor: pointer;
+    background-color: #f56b7a;
+}
+
+.hea_bot {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 502px;
+    background-color: #f56b7a;
+    z-index: 4;
+}
+
+.hea_bot .container {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 388px;
+    float: left;
+}
+
+.logo img {
+    width: 154px;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo span {
+    color: #ffffff;
+    display: block;
+    font-family: "Microsoft Yahei";
+    font-size: 22px;
+    height: 98px;
+    line-height: 98px;
+    float: left;
+    margin-left: 10px;
+}
+
+.logo a {
+    color: #ffffff;
+    display: block;
+    height: 98px;
+    text-decoration: none;
+}
+
+.nav {
+    width: 698px;
+    float: left;
+    margin-left: 114px;
+}
+
+.nav li {
+    width: 122px;
+    list-style-type: none;
+    float: left;
+    margin-right: 16px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+}
+
+.nav li a {
+    color: #ffffff;
+    display: block;
+    width: 122px;
+    height: 98px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 98px;
+}
+
+.nav .current {
+    background-color: #f75151;
+}
+
+.nav li a:hover {
+    background-color: #f75151;
+}
+
+#middle {
+    width: 100%;
+}
+
+.mid_top {
+    width: 1200px;
+    /*height: 42px;*/
+    padding-top: 42px;
+    border-bottom: 1px dashed #4c4747;
+    overflow: hidden;
+}
+
+.mid_top .title {
+    float: left;
+}
+
+.mid_top .title h2 {
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-size: 26px;
+    font-weight: normal;
+    display: inline;
+}
+
+.mid_top .title h2:nth-of-type(2) {
+    color: #f75151;
+}
+
+
+/*兼容IE7~8支持CSS3选择器*/
+
+.mid_top .title h2:first-child+h2 {
+    color: #f75151;
+}
+
+.mid_top .location {
+    color: #666666;
+    font-family: "SimSun";
+    font-size: 14px;
+    float: right;
+    line-height: 43px;
+}
+
+.mid_top .location li {
+    float: left;
+    list-style-type: none;
+}
+
+.mid_top .location li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.mid_top .location li a:hover {
+    color: #333333;
+}
+
+.mid_top .location li:nth-of-type(3) a {
+    color: #333333;
+}
+
+
+/*兼容IE7~8支持CSS3选择器*/
+
+.mid_top .location li:first-child+li+li a {
+    color: #333333;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: #313131;
+    margin-top: 22px;
+}
+
+#footer .friendlink {
+    width: 1200px;
+    height: 80px;
+}
+
+.friendlink ul {
+    /*width: 460px;*/
+    width: 505px;
+    height: 50px;
+    margin-left: 390px;
+}
+
+.friendlink ul li {
+    float: left;
+    font-family: "SimSun";
+    font-size: 13px;
+    list-style-type: none;
+    width: 56px;
+    margin-right: 45px;
+}
+
+.friendlink ul li:nth-last-of-type(1) {
+    margin-right: 0px;
+}
+
+.friendlink ul li a {
+    color: #ffffff;
+    display: block;
+    width: 56px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+.friendlink ul li a:hover {
+    color: #f75151;
+}
+
+.copyright {
+    clear: both;
+    color: #ffffff;
+    font-family: "SimSun";
+    font-size: 12px;
+    width: 460px;
+    height: 30px;
+    margin-left: 410px;
+    text-align: center;
+}
+
+.friendlink .active {
+    color: #f75151;
+}

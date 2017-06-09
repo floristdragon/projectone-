@@ -1,0 +1,129 @@
+.mid_bot {
+    width: 1200px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 300px;
+    float: left;
+}
+
+.sidebar ul {
+    width: 300px;
+}
+
+.sidebar ul li {
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    border-bottom: 1px solid #e0dddd;
+    list-style-type: none;
+}
+
+.sidebar ul li a {
+    color: #6e6e6e;
+    display: block;
+    width: 300px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.sidebar ul li .active {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.main {
+    width: 862px;
+    /*height: 762px;*/
+    float: right;
+}
+
+.main h1 {
+    font-family: "Microsoft Yahei";
+    font-size: 24px;
+    text-align: center;
+}
+
+.main h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main ul {
+    width: 465px;
+    height: 13px;
+    margin-top: 20px;
+}
+
+.main ul li {
+    color: #666666;
+    font-family: "SimSun";
+    font-size: 12px;
+    float: left;
+    list-style-type: none;
+    margin-left: 38px;
+}
+
+.main h3 {
+    background-color: #f0f0f0;
+    clear: both;
+    color: #999999;
+    font-family: "SimSun";
+    font-size: 14px;
+    font-weight: normal;
+    width: 862px;
+    /*height: 74px;*/
+    text-indent: 32px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.main .text_content {
+    width: 826px;
+    /*height: 520px;*/
+    padding-top: 26px;
+}
+
+.text_content p {
+    color: #333333;
+    font-family: "SimSun";
+    font-size: 14px;
+    text-indent: 28px;
+    line-height: 30px;
+}
+
+.main .flip {
+    width: 862px;
+    height: 14px;
+    font-family: "SimSun";
+    font-size: 14px;
+    margin: 80px 0 48px 0;
+}
+
+.main .flip .prev {
+    float: left;
+}
+
+.main .flip .next {
+    float: right;
+}
+
+.main .flip .prev,
+.main .flip .next {
+    color: #666666;
+    text-decoration: none;
+}
+
+.main .flip .prev:hover,
+.main .flip .next:hover {
+    color: #999999;
+    text-decoration: underline;
+}

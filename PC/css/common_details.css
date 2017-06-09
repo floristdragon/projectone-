@@ -1,0 +1,26 @@
+.mid_top .location li:nth-of-type(3) a {
+    color: #666666;
+}
+
+.mid_top .location li:nth-of-type(3) a:hover {
+    color: #333333;
+}
+
+.mid_top .location li:nth-of-type(4) a {
+    color: #333333;
+}
+
+
+/*兼容IE7~8支持CSS3选择器*/
+
+.mid_top .location li:first-child+li+li a {
+    color: #666666;
+}
+
+.mid_top .location li:first-child+li+li a:hover {
+    color: #333333;
+}
+
+.mid_top .location li:first-child+li+li+li a {
+    color: #333333;
+}

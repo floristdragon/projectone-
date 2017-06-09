@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/contact.css" /> /*兼容IE7~8支持CSS3选择器*/
+    <!--[if (gte IE 7) & (lte IE 8)]>
+    <style type="text/css">
+        /*兼容IE7~8支持CSS3选择器*/
+        #msg label:first-child+input+label+input+label+input+label {
+            height: 96px;
+        }
+    </style>
+        
+    <![endif]-->
+</head>
+
+<body>
+    <div id="header">
+        <div class="banner">
+            <ul class="banner_imgs">
+                <li><img src="images/banner1.jpg"></li>
+                <li><img src="images/banner2.jpg"></li>
+                <li><img src="images/banner3.jpg"></li>
+                <!--<li></li>-->
+            </ul>
+            <a class="banner_lbtn"></a>
+            <a class="banner_rbtn"></a>
+
+        </div>
+        <div class="hea_bot">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" />
+                        <span>佐纳体育用品有限公司</span>
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about_us.html">公司介绍</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="product.html">产品中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <div class="mid_top">
+            <div class="title">
+                <h2>联系我们</h2>
+                <h2>CONTACT US</h2>
+            </div>
+            <ul class="location">
+                <li><span>当前位置：&nbsp;</span></li>
+                <li><a href="index.html">网站首页</a>&nbsp;&gt;&nbsp;</li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="mid_center">
+            <!--<div class="mid_map"></div>-->
+            <iframe class="mid_map" src="map.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" ;></iframe>
+            <div class="mid_detail">
+                <p>地址：上海市xx区xx路xx广场x号楼xx号</p>
+                <p>电话：86-021-xxxxxxxx</p>
+                <p>传真：86-021-xxxxxxxxxxxxxxxx</p>
+                <p>邮箱：xxxxxxxxx@qq.com</p>
+                <p>网址：www.xxxxxx.com</p>
+            </div>
+        </div>
+        <div class="mid_bot">
+            <h3>您的意见和建议对我们非常重要，请帮助我们，让佐纳变得更好！</h3>
+            <p>Your comments and suggestions are very important to us，</p>
+            <p>please help us to become better, MM clothing industry!</p>
+            <form id="msg" action="#" method="POST">
+                <label>用户昵称：</label><input type="text" name="UseName" />
+                <label>联系电话：</label><input type="tel" name="Phone" />
+                <label>电子邮件：</label><input type="email" name="Email" />
+                <label>留言内容：</label><textarea></textarea>
+                <label>验证码：</label><input type="text" name="Code" class="verify_code" />
+                <div class="image"><img src="images/verifycode_1.jpg" /></div>
+                <a href="javascript:void(0)">看不清，换一个！</a>
+                <input type="submit" name="Submit" value="提交" class="sub" onclick="return false" />
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="friendlink">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">公司介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright©www.zuona.com 版权所有&nbsp;&nbsp;备案号：8888888888</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+    <script type="text/javascript" src="js/public.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+</body>
+
+</html>

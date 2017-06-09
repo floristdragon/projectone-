@@ -1,0 +1,131 @@
+#content .news .menu,
+#content .news .news_list {
+    width: 93.75%;
+    margin-top: 19px;
+    margin-left: 3.125%;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#content .news .menu li {
+    list-style-type: none;
+    background-color: #f75151;
+    float: left;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 16.5625%;
+    width: 22%;
+}
+
+#content .news .menu li {
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+    font-size: 0.75em;
+    font-weight: normal;
+}
+
+#content .news .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#content .news .menu li:nth-child(1) {
+    margin-left: 0;
+}
+
+#content .news .menu .active {
+    color: #f75151;
+    border: 1px solid #f75151;
+    background-color: #ffffff;
+}
+
+#content .news .menu .active a {
+    color: #f75151;
+}
+
+#content .news .news_list {
+    width: 100%;
+}
+
+#content .news .news_list li {
+    width: 100%;
+    height: 34px;
+    list-style-type: none;
+    border-bottom: 1px dashed #dcdcdc;
+    overflow: hidden;
+}
+
+#content .news .news_list li a {
+    text-decoration: none;
+}
+
+#content .news .news_list li h3 {
+    float: left;
+    font-weight: normal;
+}
+
+#content .news .news_list li span {
+    display: block;
+    float: left;
+    line-height: 34px;
+}
+
+#content .news .news_list li h3:nth-child(1) {
+    width: 27.2%;
+    font-family: "Microsoft Yahei";
+    font-size: 0.85em;
+    line-height: 34px;
+}
+
+#content .news .news_list li h3:nth-child(1) a {
+    color: #f75151;
+}
+
+#content .news .news_list li h3:nth-child(2) {
+    width: 40.75%;
+    margin-left: 1.5%;
+    font-family: "Microsoft Yahei";
+    font-size: 0.85em;
+    line-height: 34px;
+}
+
+#content .news .news_list li h3:nth-child(2) a {
+    color: #333333;
+}
+
+#content .news .news_list li span:nth-child(3) {
+    width: 22.3125%;
+    font-size: 0.75em;
+    margin-left: 5%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+#content .news .news_list li span:nth-child(3) a {
+    /*130/640*/
+    display: block;
+    color: #999999;
+}
+
+#content .news button {
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    width: 39.0625%;
+    /*height: 30px;*/
+    border: none;
+    text-align: center;
+    line-height: 2em;
+    /*margin-top: 11.5px;
+    margin-left: 30.4688%;
+    margin-bottom: 15px;
+    */
+    margin: 1.5em 30.4688% 1.5em;
+}
+
+#content .news button a {
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    background-color: #f75151;
+    text-decoration: none;
+}

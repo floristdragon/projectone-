@@ -1,0 +1,156 @@
+.mid_center {
+    width: 1200px;
+    height: 430px;
+    margin-top: 48px;
+    position: relative;
+    z-index: 1;
+}
+
+.mid_map {
+    width: 915px;
+    height: 430px;
+    float: left;
+    background-color: #666666;
+}
+
+.mid_detail {
+    width: 350px;
+    /*position: absolute相对于最近的定位祖先元素*/
+    position: absolute;
+    left: 850px;
+    top: 62px;
+    background-color: #f75151;
+    border: 1px solid #f75151;
+    /*css3实现圆角效果*/
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    z-index: 2;
+    /*behavior: url(ie-css3.htc);*/
+    behavior: url(PIE.htc);
+}
+
+.mid_detail p {
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.mid_bot {
+    width: 1200px;
+    /*height: 535px;*/
+    margin-top: 30px;
+}
+
+.mid_bot>h3 {
+    color: #808080;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.mid_bot>p {
+    color: #999999;
+    font-family: "SimSun";
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#msg {
+    width: 683px;
+    /*height: 452px;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#msg label {
+    background-color: #e7e6e6;
+    color: #333333;
+    display: block;
+    font-family: "SimSun";
+    font-size: 14px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 29px;
+    margin-top: 1px;
+    float: left;
+}
+
+#msg input {
+    width: 526px;
+    height: 36px;
+    background-color: #eee9e9;
+    border: none;
+    margin-bottom: 29px;
+    margin-top: 1px;
+    float: left;
+    text-indent: 4px;
+    padding: 2px;
+    /*兼容ie8下浏览器文本框内文字垂直居中*/
+    line-height: 36px;
+}
+
+#msg label:nth-of-type(4) {
+    height: 96px;
+}
+
+#msg textarea {
+    width: 520px;
+    height: 84px;
+    background-color: #eee9e9;
+    border: none;
+    margin-bottom: 30px;
+    /*让滚动条自适应，保证兼容性*/
+    overflow: auto;
+    /*禁止所有方向的拉动*/
+    resize: none;
+    /*text-indent: 4px;*/
+    padding: 6px;
+    margin-top: 1px;
+}
+
+#msg .verify_code {
+    width: 146px;
+}
+
+#msg .image {
+    width: 215px;
+    /*height: 40px;*/
+    margin-left: 31px;
+    float: left;
+    cursor: pointer;
+}
+
+#msg a {
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "SimSun";
+    font-size: 13px;
+    display: block;
+    width: 106px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-left: 19px;
+}
+
+#msg .sub {
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "SimSun";
+    font-size: 14px;
+    width: 140px;
+    height: 38px;
+    border: none;
+    background-color: #f75151;
+    /*clear: both;*/
+    margin-top: 32px;
+    margin-bottom: 0px;
+}

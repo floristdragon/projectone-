@@ -1,0 +1,140 @@
+#content .news .news_list {
+    width: 100%;
+}
+
+#content .news .news_list li {
+    list-style-type: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#content .news .news_list li:nth-of-type(1) {
+    margin-top: 0;
+}
+
+#content .news .news_list li>p {
+    width: 17.9688%;
+    height: 105px;
+    margin-left: 3.125%;
+    background-image: url(../images/news_bg.png);
+    /*background-size指定背景大小，以象素或百分比显示。
+    当指定为百分比时，大小会由所在区域的宽度、高度，
+    以及background-origin的位置决定*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    /*vertical-align垂直居中，值为高度一半*/
+    text-indent: 1.2em;
+    /*vertical-align: 40px;*/
+    line-height: 4em;
+}
+
+#content .news .news_list li div {
+    width: 75%;
+    height: 85px;
+    margin-top: 1.6em;
+    float: left;
+}
+
+#content .news .news_list li:nth-of-type(1) div {
+    margin-top: 1.7em;
+}
+
+#content .news .news_list li div h3 {
+    font-family: "Microsoft Yahei";
+    font-size: 0.9375em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#content .news .news_list li div h3 a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#content .news .news_list li div p {
+    color: #666666;
+    font-family: "Microsoft Yahei";
+    font-size: 0.75em;
+    text-align: left;
+    line-height: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#content .product ul {
+    width: 93.75%;
+    margin-top: 28px;
+    margin-left: 3.125%;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#content .product ul li {
+    width: 45.3125%;
+    list-style-type: none;
+    float: left;
+}
+
+#content .product ul li:nth-child(2n) {
+    margin-left: 8.8125%;
+}
+
+#content .product ul li a {
+    text-decoration: none;
+}
+
+#content .product ul li img {
+    /*使图片自动缩放到与其容器 100%匹配*/
+    max-width: 100%;
+}
+
+#content .product ul li p {
+    font-family: "Microsoft Yahei";
+    font-size: 0.9375em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#content .product ul li p a {
+    color: #8a8a8a;
+}
+
+#content .introduction {
+    position: relative;
+}
+
+#content .introduction .intro_thumb {
+    width: 100%;
+    margin-top: 12px;
+}
+
+#content .introduction .intro_thumb img {
+    width: 100%;
+}
+
+#content .introduction .text {
+    background-color: rgba(49, 50, 47, 0.5);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    /*opacity: 0.5;*/
+}
+
+#content .introduction .text p {
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+    /*font-size: 0.75em;*/
+    font-size: 1em;
+    text-align: left;
+    text-indent: 2em;
+    /*line-height: 24px;*/
+    line-height: 2em;
+    margin-left: 3.125%;
+    margin-bottom: 0;
+}

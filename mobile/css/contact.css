@@ -1,0 +1,76 @@
+#content .contact .main {
+    font-family: "Microsoft Yahei";
+    font-size: 0.75em;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#content .contact .main p {
+    color: #666666;
+    text-align: left;
+    margin-left: 17.1875%;
+}
+
+#content .contact .map {
+    width: 100%;
+}
+
+.msg {
+    width: 93.75%;
+    margin-left: 3.125%;
+    margin-top: 6px;
+    font-family: "Microsoft Yahei";
+    font-size: 0.75em;
+    overflow: hidden;
+}
+
+.msg label {
+    color: #333333;
+    width: 20.3125%;
+    height: 2rem;
+    background-color: #eee9e9;
+    text-align: center;
+    line-height: 2rem;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.msg label:nth-of-type(4) {
+    height: 4rem;
+    line-height: 1rem;
+}
+
+.msg input {
+    width: 79.4375%;
+    height: 2rem;
+    float: left;
+    background-color: #eee9e9;
+    border: none;
+    text-indent: 5px;
+    margin-bottom: 5px;
+}
+
+.msg input:nth-of-type(4) {
+    color: #ffffff;
+    background-color: #f75151;
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    width: 21.875%;
+    height: 2em;
+    border: none;
+    margin: 20px 38.9375% 28px;
+    text-align: center;
+    line-height: 2em;
+    text-indent: 0px;
+}
+
+.msg textarea {
+    width: 77.7375%;
+    height: 3.6rem;
+    background-color: #eee9e9;
+    padding: 0.2rem;
+    resize: none;
+    border: none;
+    margin-bottom: 5px;
+}

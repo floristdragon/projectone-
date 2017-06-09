@@ -1,0 +1,121 @@
+.mid_bot {
+    width: 1200px;
+    margin-top: 32px;
+    overflow: hidden;
+    /*zoom: 100%;*/
+}
+
+.sidebar {
+    width: 300px;
+    float: left;
+}
+
+.sidebar ul {
+    width: 300px;
+}
+
+.sidebar ul li {
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    border-bottom: 1px solid #e0dddd;
+    list-style-type: none;
+}
+
+.sidebar ul li a {
+    color: #6e6e6e;
+    display: block;
+    width: 300px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.sidebar ul li .active {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.main {
+    width: 860px;
+    float: right;
+}
+
+.main img {
+    float: left;
+    margin-bottom: 27px;
+}
+
+.main .detail {
+    width: 552px;
+    float: right;
+    margin-bottom: 27px;
+}
+
+.main .detail .detail_title {
+    color: #333333;
+    width: 552px;
+    border-bottom: 1px solid #cdcccc;
+}
+
+.main .detail dl .detail_title a {
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.main .detail dl dd {
+    color: #6e6e6e;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.main p:nth-of-type(1) {
+    color: #666666;
+    font-family: "SimSun";
+    font-size: 14px;
+    /*width: 860px;*/
+    background-color: #f2eded;
+    line-height: 46px;
+    clear: both;
+}
+
+.main p:nth-of-type(2) {
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.main .flip {
+    margin-top: 45px;
+    margin-bottom: 75px;
+    /*解决IE7下magin失效的问题*/
+    zoom: 1;
+}
+
+.main .flip .prev,
+.main .flip .next {
+    display: block;
+    color: #333333;
+    font-family: "SimSun";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main .flip .next {
+    margin-top: 16px;
+}
+
+.main .flip .prev:hover,
+.main .flip .next:hover {
+    color: #999999;
+    text-decoration: underline;
+}

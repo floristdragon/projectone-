@@ -1,0 +1,189 @@
+.mid_center {
+    width: 1200px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 300px;
+    float: left;
+}
+
+.sidebar ul {
+    width: 300px;
+    height: 196px;
+}
+
+.sidebar ul .active {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.sidebar ul li {
+    color: #6e6e6e;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    border-bottom: 1px solid #e0dddd;
+    list-style-type: none;
+    display: block;
+    width: 300px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.sidebar ul li:hover {
+    color: #ffffff;
+    background-color: #f56b7a;
+}
+
+.pro_list {
+    width: 900px;
+    float: right;
+    display: none;
+}
+
+.pro_list ul {
+    width: 900px;
+    overflow: hidden;
+}
+
+.pro_list ul li {
+    width: 260px;
+    list-style-type: none;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pro_list ul li:nth-of-type(4),
+.pro_list ul li:nth-of-type(5),
+.pro_list ul li:nth-of-type(6) {
+    margin-top: 80px;
+}
+
+.pro_list ul li div,
+.pro_list ul li p {
+    display: none;
+}
+
+.pro_list ul li:hover div,
+.pro_list ul li:hover p {
+    display: block;
+    /*text-decoration: none;*/
+}
+
+.pro_list ul li:hover div {
+    width: 260px;
+    height: 320px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1c110d;
+    z-index: 50;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.pro_list ul li:hover div a {
+    display: block;
+    width: 260px;
+    height: 320px;
+}
+
+.pro_list ul li:hover p {
+    color: #ffffff;
+    z-index: 100;
+    text-align: center;
+}
+
+.pro_list ul li:hover p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pro_list ul li:hover p:nth-of-type(1) {
+    font-family: "Arial";
+    font-size: 32px;
+    width: 260px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 112px;
+    line-height: 25px;
+}
+
+.pro_list ul li:hover p:nth-of-type(2) {
+    font-family: "Microsoft Yahei";
+    font-size: 28px;
+    width: 260px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    top: 216px;
+    line-height: 27px;
+}
+
+.page {
+    width: 1200px;
+    height: 86px;
+}
+
+.page ul {
+    width: 320px;
+    height: 30px;
+    float: right;
+    margin-top: 27px;
+}
+
+.page ul li {
+    width: 36px;
+    height: 30px;
+    font-family: "SimSun";
+    font-size: 12px;
+    list-style-type: none;
+    float: left;
+    margin-left: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.page ul li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.page ul .prev a:hover,
+.page ul .next a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.page ul li:first-child+li a,
+.page ul li:first-child+li+li a,
+.page ul li:first-child+li+li+li a,
+.page ul li:first-child+li+li+li+li a {
+    display: block;
+    width: 26px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #666666;
+    text-decoration: none;
+}
+
+.page ul li:first-child+li a:hover,
+.page ul li:first-child+li+li a:hover,
+.page ul li:first-child+li+li+li a:hover,
+.page ul li:first-child+li+li+li+li a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.page ul .current a {
+    color: #ffffff;
+    background-color: #333333;
+}
